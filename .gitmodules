@@ -1,0 +1,3 @@
+[submodule "keycaps/KeyV2"]
+	path = keycaps/KeyV2
+	url = https://github.com/rsheldiii/KeyV2.git
