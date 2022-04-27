@@ -14,7 +14,6 @@ repositories:
 - [LMN-3-Keycaps](https://github.com/stonepreston/LMN-3-Keycaps)
 
 ## Manufacturing
-The case is designed to be laser-cut from 3 mm acrylic and assembled in layers.
 
 ### Layers
 The case is designed to be assembled from multiple laser-cut acrylic layers. 3-D printing these layers is also possible. 
