@@ -26,7 +26,7 @@ The case is designed to be assembled from multiple laser-cut acrylic layers. 3-D
 | Top Layer    | 3                    | 2        |
 | Switch Layer | 3                    | 1        |
 
-### Fastners
+### Fasteners
 
 | Fastener     | Quantity |
 |--------------|----------|
