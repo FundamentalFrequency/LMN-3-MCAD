@@ -21,17 +21,21 @@ The case is designed to be assembled from multiple laser-cut acrylic layers. 3-D
 | Layer Name   | Layer Thickness (mm) | Quantity |
 |--------------|----------------------|----------|
 | Bottom Layer | 3                    | 1        |
-| Lower Layer  | 3                    | 5        |
+| Lower Layer  | 3                    | 6        |
 | Top Layer    | 3                    | 2        |
 | Switch Layer | 3                    | 1        |
+
+Note that although 6 lower layers are recommended, you may end up only needing 5. Manufacturing an extra lower layer is helpful in case the thickness of your acrylic is a bit less than 3 mm. With so many layers, the difference adds up, and your case can end up being a bit thinner than intended. Having an extra lower layer to throw in can help with that issue. 
 
 ### Fasteners
 
 | Fastener     | Quantity |
 |--------------|----------|
 | M2.5x30 Bolt | 8        |
-| M2.5x3 Bolt  | 4        |
-| M2.5 Nut     | 12       |
+| M2.5x12 Bolt | 4        |
+| M2.5 Nut     | 8       |
+
+The M2.5x30 bolts are for fastening the layers together. The M2.5x12 bolts are for fastening the Raspberry Pi to the bottom of the case (they screw into the standoffs that come with the screen.)
 
 ### 3-D Printing
 You can also 3-D print all the parts if you wish, however depending on the size of your print bed you may need to post-process the part files a bit in order to fit them on your printer bed. You can cut them in half (maybe use a stair-step-shaped cut to provide some surface area for gluing) and then print parts in 2 pieces. Post-processed STL files are not provided, as everyone's printer is different, and it would be too much work to provide enough sizes to keep everyone happy. You are welcome to modify the FreeCAD part files yourself :)
@@ -60,7 +64,7 @@ This project would not be possible without the following free and open source pr
 #### Encoders (Alps EC11E09244AQ)
 - [3-D Model](https://www.snapeda.com/parts/EC11E09244AQ/ALPS/view-part/?welcome=home&t=EC11E)
 
-### Teensy 4.1
+#### Teensy 4.1
 - [3-D Model](https://www.snapeda.com/parts/DEV-16771/SparkFun%20Electronics/view-part/?t=teensy)
 
 #### Thumbstick (SparkFun COM-09032)
