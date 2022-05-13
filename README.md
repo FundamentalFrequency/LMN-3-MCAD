@@ -16,7 +16,7 @@ repositories:
 ## Manufacturing
 
 ### Layers
-The case is designed to be assembled from multiple laser-cut acrylic layers. 3-D printing these layers is also possible. 
+The case is designed to be assembled from multiple laser-cut acrylic layers. DXF files are available [here](https://github.com/stonepreston/LMN-3-MCAD/releases). 3-D printing these layers is also possible. 
 
 | Layer Name   | Layer Thickness (mm) | Quantity |
 |--------------|----------------------|----------|
@@ -33,7 +33,7 @@ Note that although 6 lower layers are recommended, you may end up only needing 5
 |--------------|----------|
 | M2.5x30 Bolt | 8        |
 | M2.5x12 Bolt | 4        |
-| M2.5 Nut     | 8       |
+| M2.5 Nut     | 8        |
 
 The M2.5x30 bolts are for fastening the layers together. The M2.5x12 bolts are for fastening the Raspberry Pi to the bottom of the case (they screw into the standoffs that come with the screen.)
 
