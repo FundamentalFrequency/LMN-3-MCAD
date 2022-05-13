@@ -74,4 +74,4 @@ This project would not be possible without the following free and open source pr
 - [3-D Models](https://github.com/perigoso/keyswitch-kicad-library)
 
 ## License
-Licensed under the [CC-by-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license 
+Licensed under the [CC-by-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. 
