@@ -13,10 +13,13 @@ repositories:
 - [LMN-3-Emulator](https://github.com/stonepreston/LMN-3-Emulator)
 - [LMN-3-Keycaps](https://github.com/stonepreston/LMN-3-Keycaps)
 
+## Releases
+Releases containing DXF and STL files are available [here](https://github.com/stonepreston/LMN-3-MCAD/releases). 
+
 ## Manufacturing
 
 ### Layers
-The case is designed to be assembled from multiple laser-cut acrylic layers. DXF files are available [here](https://github.com/stonepreston/LMN-3-MCAD/releases). 3-D printing these layers is also possible. 
+The case is designed to be assembled from multiple laser-cut acrylic or wood layers. DXF files are available in the releases [here](https://github.com/stonepreston/LMN-3-MCAD/releases). 3-D printing these layers is also possible. 
 
 | Layer Name   | Layer Thickness (mm) | Quantity |
 |--------------|----------------------|----------|
@@ -37,8 +40,10 @@ Note that although 6 lower layers are recommended, you may end up only needing 5
 
 The M2.5x30 bolts are for fastening the layers together. The M2.5x12 bolts are for fastening the Raspberry Pi to the bottom of the case (they screw into the standoffs that come with the screen.)
 
+It is also advisable to purchase some adhesive rubber feet for the bottom of the case. 
+
 ### 3-D Printing
-You can also 3-D print all the parts if you wish, however depending on the size of your print bed you may need to post-process the part files a bit in order to fit them on your printer bed. You can cut them in half (maybe use a stair-step-shaped cut to provide some surface area for gluing) and then print parts in 2 pieces. Post-processed STL files are not provided, as everyone's printer is different, and it would be too much work to provide enough sizes to keep everyone happy. You are welcome to modify the FreeCAD part files yourself :)
+You can also 3-D print all the layers using the STL files provided in the [releases](https://github.com/stonepreston/LMN-3-MCAD/releases). However, depending on the size of your print bed you may need to post-process the files a bit in order to fit them on your printer bed. You can cut them in half (maybe use a stair-step-shaped cut to provide some surface area for gluing) and then print parts in 2 pieces. Post-processed STL files are not provided, as everyone's printer is different, and it would be too much work to provide enough sizes to keep everyone happy. Feel free to modify the FreeCAD part files yourself and re-export modified STLs, or manipulate the released STL meshes. 
 
 If you would like to process the parts using FreeCAD, you may find [this video](https://www.youtube.com/watch?v=tzHkQaHgrfQ) helpful. 
 
