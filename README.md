@@ -6,6 +6,7 @@ This repository contains the [FreeCAD](https://www.freecadweb.org/) project file
 
 It is a part of the larger LMN-3 project, composed of the following
 repositories:
+- [LMN-3-Build-Guide](https://github.com/stonepreston/LMN-3-Build-Guide)
 - [LMN-3-DAW](https://github.com/stonepreston/LMN-3-DAW)
 - [LMN-3-MCAD](https://github.com/stonepreston/LMN-3-MCAD)
 - [LMN-3-ECAD](https://github.com/stonepreston/LMN-3-ECAD)
