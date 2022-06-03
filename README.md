@@ -37,6 +37,8 @@ Because the upper and lower layers are not fully enclosed, you can save material
 
 ![Cutting path](https://github.com/stonepreston/LMN-3-MCAD/blob/main/.github/images/laser_cutting_upper_and_lower_layers_orientation.PNG)
 
+#### Laser Cutting Services
+If you are unable to laser cut the parts yourself, there are plenty of online shops available that you can use. These shops allow you to submit DXF files and specify a material, and they will cut the parts and ship them to you. 
 
 ### Fasteners
 
