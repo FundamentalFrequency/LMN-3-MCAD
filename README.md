@@ -33,6 +33,11 @@ The case is designed to be assembled from multiple laser-cut acrylic or wood lay
 
 Note that although 6 lower layers are recommended, you may end up only needing 5. Manufacturing an extra lower layer is helpful in case the thickness of your acrylic is a bit less than 3 mm. With so many layers, the difference adds up, and your case can end up being a bit thinner than intended. Having an extra lower layer to throw in can help with that issue. 
 
+Because the upper and lower layers are not fully enclosed, you can save material by placing one layer inside the other when laying out your cutting path:
+
+![Cutting path](https://github.com/stonepreston/LMN-3-MCAD/blob/main/.github/images/laser_cutting_upper_and_lower_layers_orientation.PNG)
+
+
 ### Fasteners
 
 | Fastener     | Quantity |
