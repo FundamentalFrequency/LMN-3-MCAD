@@ -1,28 +1,18 @@
 # LMN-3-MCAD
 
-![screenshot of Assembly](https://github.com/stonepreston/LMN-3-MCAD/blob/main/.github/images/assembly.png)
+![screenshot of Assembly](images/assembly.png)
 
-This repository contains the [FreeCAD](https://www.freecadweb.org/) project files for the LMN-3 Case.
-
-It is a part of the larger LMN-3 project, composed of the following
-repositories:
-- [LMN-3-Build-Guide](https://github.com/stonepreston/LMN-3-Build-Guide)
-- [LMN-3-DAW](https://github.com/stonepreston/LMN-3-DAW)
-- [LMN-3-MCAD](https://github.com/stonepreston/LMN-3-MCAD)
-- [LMN-3-ECAD](https://github.com/stonepreston/LMN-3-ECAD)
-- [LMN-3-Firmware](https://github.com/stonepreston/LMN-3-Firmware)
-- [LMN-3-Emulator](https://github.com/stonepreston/LMN-3-Emulator)
-- [LMN-3-Keycaps](https://github.com/stonepreston/LMN-3-Keycaps)
+This repository contains the [FreeCAD](https://www.freecadweb.org/) project files for the LMN-3 Enclosure.
 
 If you would like to support the project, please consider becoming a [sponsor](https://github.com/sponsors/stonepreston).
 
 ## Releases
-Releases containing DXF and STL files are available [here](https://github.com/stonepreston/LMN-3-MCAD/releases). 
+Releases containing DXF and STL files are available [here](https://github.com/FundamentalFrequency/LMN-3-MCAD/releases). 
 
 ## Manufacturing
 
 ### Layers
-The case is designed to be assembled from multiple laser-cut acrylic or wood layers. DXF files are available in the releases [here](https://github.com/stonepreston/LMN-3-MCAD/releases). 3-D printing these layers is also possible. 
+The enclosure is designed to be assembled from multiple laser-cut acrylic or wood layers. DXF files are available in the releases [here](https://github.com/FundamentalFrequency/LMN-3-MCAD/releases). 3-D printing these layers is also possible. 
 
 | Layer Name   | Layer Thickness (mm) | Quantity |
 |--------------|----------------------|----------|
@@ -31,11 +21,11 @@ The case is designed to be assembled from multiple laser-cut acrylic or wood lay
 | Top Layer    | 3                    | 2        |
 | Switch Layer | 3                    | 1        |
 
-Note that although 6 lower layers are recommended, you may end up only needing 5. Manufacturing an extra lower layer is helpful in case the thickness of your acrylic is a bit less than 3 mm. With so many layers, the difference adds up, and your case can end up being a bit thinner than intended. Having an extra lower layer to throw in can help with that issue. 
+Note that although 6 lower layers are recommended, you may end up only needing 5. Manufacturing an extra lower layer is helpful in case the thickness of your acrylic is a bit less than 3 mm. With so many layers, the difference adds up, and your enclosure can end up being a bit thinner than intended. Having an extra lower layer to throw in can help with that issue. 
 
 Because the upper and lower layers are not fully enclosed, you can save material by placing one layer inside the other when laying out your cutting path:
 
-![Cutting path](https://github.com/stonepreston/LMN-3-MCAD/blob/main/.github/images/laser_cutting_upper_and_lower_layers_orientation.PNG)
+![Cutting path](images/laser_cutting_upper_and_lower_layers_orientation.PNG)
 
 #### Laser Cutting Services
 If you are unable to laser cut the parts yourself, there are plenty of online shops available that you can use. These shops allow you to submit DXF files and specify a material, and they will cut the parts and ship them to you. 
@@ -50,10 +40,10 @@ If you are unable to laser cut the parts yourself, there are plenty of online sh
 
 The M2.5x30 bolts are for fastening the layers together. The M2.5x12 bolts are for fastening the Raspberry Pi to the bottom of the case (they screw into the standoffs that come with the screen.)
 
-It is also advisable to purchase some adhesive rubber feet for the bottom of the case. 
+It is also advisable to purchase some adhesive rubber feet for the bottom of the enclosure. 
 
 ### 3-D Printing
-You can also 3-D print all the layers using the STL files provided in the [releases](https://github.com/stonepreston/LMN-3-MCAD/releases). However, depending on the size of your print bed you may need to post-process the files a bit in order to fit them on your printer bed. You can cut them in half (maybe use a stair-step-shaped cut to provide some surface area for gluing) and then print parts in 2 pieces. Post-processed STL files are not provided, as everyone's printer is different, and it would be too much work to provide enough sizes to keep everyone happy. Feel free to modify the FreeCAD part files yourself and re-export modified STLs, or manipulate the released STL meshes. 
+You can also 3-D print all the layers using the STL files provided in the [releases](https://github.com/FundamentalFrequency/LMN-3-MCAD/releases). However, depending on the size of your print bed you may need to post-process the files a bit in order to fit them on your printer bed. You can cut them in half (maybe use a stair-step-shaped cut to provide some surface area for gluing) and then print parts in 2 pieces. Post-processed STL files are not provided, as everyone's printer is different, and it would be too much work to provide enough sizes to keep everyone happy. Feel free to modify the FreeCAD part files yourself and re-export modified STLs, or manipulate the released STL meshes. 
 
 If you would like to process the parts using FreeCAD, you may find [this video](https://www.youtube.com/watch?v=tzHkQaHgrfQ) helpful. 
 
