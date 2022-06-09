@@ -49,7 +49,7 @@ If you would like to process the parts using FreeCAD, you may find [this video](
 
 ## Contributing
 ### FreeCAD
-The files in this repository compose a FreeCAD 19 project. A full assembly is provided in `assemblies/` and individual part files can be found in their respective folders. Additional STEP files are also included for the PCB and other objects. 
+The files in this repository compose a [FreeCAD](https://www.freecadweb.org/) project. It is recommended you use FreeCAD 20. You will need to install two addons, Assembly4 and Fasteners. A full assembly is provided in `assemblies/` and individual part files can be found in their respective folders. Additional STEP files are also included for the PCB and other objects. 
 
 #### Some Design Rules
 ##### The Topological Naming Problem
